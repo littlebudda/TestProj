@@ -1,0 +1,116 @@
+###############################################################################
+#                                                                             #
+# IAR ANSI C/C++ Compiler V5.40.2.51604/W32 for ARM     04/Jun/2017  22:55:20 #
+# Copyright (C) 1999-2009 IAR Systems AB.                                     #
+#                                                                             #
+#    Cpu mode     =  thumb                                                    #
+#    Endian       =  little                                                   #
+#    Source file  =  D:\Test_IAR\main.cpp                                     #
+#    Command line =  D:\Test_IAR\main.cpp -lC D:\Test_IAR\Debug\List\ -lA     #
+#                    D:\Test_IAR\Debug\List\ -o D:\Test_IAR\Debug\Obj\        #
+#                    --no_cse --no_unroll --no_inline --no_code_motion        #
+#                    --no_tbaa --no_clustering --no_scheduling --debug        #
+#                    --endian=little --cpu=Cortex-M3 -e --fpu=None --eec++    #
+#                    --dlib_config "D:\Program Files (x86)\IAR                #
+#                    Systems\Embedded Workbench 5.4\arm\INC\DLib_Config_Norma #
+#                    l.h" --preinclude D:\Test_IAR\Header\Test.h -I Header\   #
+#                    -I Source\ -I "D:\Program Files (x86)\IAR                #
+#                    Systems\Embedded Workbench 5.4\arm\INC\" -Ol             #
+#    List file    =  D:\Test_IAR\Debug\List\main.lst                          #
+#    Object file  =  D:\Test_IAR\Debug\Obj\main.o                             #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+
+   \                                 In section .text, align 2
+   \   __intrinsic __code __interwork Test::complete ~Test()
+   \                     _ZN4TestD1Ev:
+   \   00000000   80B5               PUSH     {R7,LR}
+   \   00000002   0221               MOVS     R1,#+2
+   \   00000004   ........           BL       _ZN4TestD9Ev
+   \   00000008   02BD               POP      {R1,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __??Code16?? __code __interwork Test::~Test()
+   \                     _ZN4TestD9Ev:
+   \   00000000   7047               BX       LR               ;; return
+D:\Test_IAR\main.cpp
+      1          
+      2          #include "Test.h"
+      3          
+
+   \                                 In section .text, align 2, keep-with-next
+      4          int main()
+      5          {
+   \                     main:
+   \   00000000   70B5               PUSH     {R4-R6,LR}
+   \   00000002   84B0               SUB      SP,SP,#+16
+      6            int yy;
+      7            int x,z;
+      8          
+      9            Test a;
+   \   00000004   02A8               ADD      R0,SP,#+8
+   \   00000006   ........           BL       _ZN4TestC1Ev
+     10            Test b(1);
+   \   0000000A   0121               MOVS     R1,#+1
+   \   0000000C   01A8               ADD      R0,SP,#+4
+   \   0000000E   ........           BL       _ZN4TestC1Ei
+     11            Test c=2;
+   \   00000012   0221               MOVS     R1,#+2
+   \   00000014   00A8               ADD      R0,SP,#+0
+   \   00000016   ........           BL       _ZN4TestC1Ei
+     12            x=b.Get(); 
+   \   0000001A   01A8               ADD      R0,SP,#+4
+   \   0000001C   ........           BL       _ZN4Test3GetEv
+   \   00000020   0500               MOVS     R5,R0
+     13            yy=a.Get(); 
+   \   00000022   02A8               ADD      R0,SP,#+8
+   \   00000024   ........           BL       _ZN4Test3GetEv
+   \   00000028   0400               MOVS     R4,R0
+     14            z=c.Get();
+   \   0000002A   00A8               ADD      R0,SP,#+0
+   \   0000002C   ........           BL       _ZN4Test3GetEv
+   \   00000030   0600               MOVS     R6,R0
+     15            x=z;
+   \   00000032   3500               MOVS     R5,R6
+     16            yy=x;
+   \   00000034   2C00               MOVS     R4,R5
+     17            z=yy;
+   \   00000036   2600               MOVS     R6,R4
+     18            return 0;
+   \   00000038   00A8               ADD      R0,SP,#+0
+   \   0000003A   ........           BL       _ZN4TestD1Ev
+   \   0000003E   01A8               ADD      R0,SP,#+4
+   \   00000040   ........           BL       _ZN4TestD1Ev
+   \   00000044   02A8               ADD      R0,SP,#+8
+   \   00000046   ........           BL       _ZN4TestD1Ev
+   \   0000004A   0020               MOVS     R0,#+0
+   \   0000004C   04B0               ADD      SP,SP,#+16
+   \   0000004E   70BD               POP      {R4-R6,PC}       ;; return
+     19          }
+
+   Maximum stack usage in bytes:
+
+     Function               .cstack
+     --------               -------
+     Test::complete ~Test()      8
+     Test::~Test()               0
+     main()                     32
+
+
+   Section sizes:
+
+     Function/Label         Bytes
+     --------------         -----
+     Test::complete ~Test()   10
+     Test::~Test()             2
+     main()                   80
+
+ 
+ 92 bytes in section .text
+ 
+ 80 bytes of CODE memory (+ 12 bytes shared)
+
+Errors: none
+Warnings: none
