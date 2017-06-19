@@ -16,7 +16,7 @@
       int i;
     public:
       Test(void);
-      Test(int i);
+      explicit Test(int i);
       int Get();
       ~Test(){};
     };

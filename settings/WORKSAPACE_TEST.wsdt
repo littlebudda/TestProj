@@ -12,7 +12,7 @@
           
           
           
-        <Column0>358</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+        <Column0>375</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <Build>
         
@@ -32,7 +32,7 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>Test_IAR_CPP</ExpandedNode><ExpandedNode>Test_IAR_CPP/Header</ExpandedNode><ExpandedNode>Test_IAR_CPP/Output</ExpandedNode><ExpandedNode>Test_IAR_CPP/Output/Test_IAR_CPP.out</ExpandedNode><ExpandedNode>Test_IAR_CPP/Source</ExpandedNode><ExpandedNode>Test_IAR_CPP/Source/Test.cpp</ExpandedNode><ExpandedNode>Test_IAR_CPP/main.cpp</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>Test_IAR_CPP</ExpandedNode><ExpandedNode>Test_IAR_CPP/Header</ExpandedNode><ExpandedNode>Test_IAR_CPP/Output</ExpandedNode><ExpandedNode>Test_IAR_CPP/Output/Test_IAR_CPP.out</ExpandedNode><ExpandedNode>Test_IAR_CPP/Source</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
@@ -52,14 +52,14 @@
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>D:\Test_IAR\main.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>157</SelStart><SelEnd>157</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>D:\Test_IAR\Header\Test.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>243</SelStart><SelEnd>243</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>D:\Test_IAR\Source\Test.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>42</SelStart><SelEnd>42</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>D:\Test_IAR\main.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>157</SelStart><SelEnd>157</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>D:\Test_IAR\Header\Test.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>260</SelStart><SelEnd>260</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>D:\Test_IAR\Source\Test.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>42</SelStart><SelEnd>42</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-02281ec8><key>iaridepm.enu1</key></Toolbar-02281ec8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>390</Bottom><Right>449</Right><x>-2</x><y>-2</y><xscreen>271</xscreen><yscreen>292</yscreen><sizeHorzCX>198389</sizeHorzCX><sizeHorzCY>402759</sizeHorzCY><sizeVertCX>330161</sizeVertCX><sizeVertCY>540690</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>290</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>292</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>402759</sizeHorzCY><sizeVertCX>198389</sizeVertCX><sizeVertCY>402759</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-0244fe68><key>iaridepm.enu1</key></Toolbar-0244fe68></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>390</Bottom><Right>449</Right><x>-2</x><y>-2</y><xscreen>271</xscreen><yscreen>292</yscreen><sizeHorzCX>198389</sizeHorzCX><sizeHorzCY>402759</sizeHorzCY><sizeVertCX>330161</sizeVertCX><sizeVertCY>540690</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>290</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>292</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>402759</sizeHorzCY><sizeVertCX>198389</sizeVertCX><sizeVertCY>402759</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 
